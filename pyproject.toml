@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "retell-ai-python-backend"
+version = "0.1.0"
+description = ""
+authors = ["Zarif Aziz <zarifaziz08@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+retell-sdk = "^4.3.0"
+fastapi = "^0.112.2"
+pydantic = "^2.8.2"
+pydantic-settings = "^2.4.0"
+uvicorn = "^0.30.6"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
